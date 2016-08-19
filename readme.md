@@ -33,4 +33,4 @@ Show video frames during parsing
 
 ## How it works
 
-**shotsplit** detects cuts in video by comparing difference hashes of consecutive frames and thresholding variations in Hamming distance between them. It uses [`imagehash`](https://github.com/JohannesBuchner/imagehash) for `dHash()` and [`MoviePy`](http://zulko.github.io/moviepy/) for clip extraction.
+**shotsplit** detects cuts in video by comparing difference hashes of consecutive frames and thresholding the variations in Hamming distance between them. It uses [`imagehash`](https://github.com/JohannesBuchner/imagehash)'s `dhash()` and [`MoviePy`](http://zulko.github.io/moviepy/) for clip extraction.
